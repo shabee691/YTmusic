@@ -1,0 +1,10 @@
+
+<div class="mt-[150px] ml-[320px] h-[100vh]">
+    <div class="flex gap-2">        
+        <app-button   *ngFor="let category of categories" [title]="category" [style]="'py-1 px-1 h-8 w-[80px] rounded-lg  bg-[#80808057] hover:bg-[#808080af] text-white text-sm'">
+        </app-button>
+    </div>
+        <app-scroll [mainTitle]="'Music + Monsoons = Magic'" [secTitle]="'FOR COZY DAYS AND ENDLESS CUP OF TEA'" [buttonTitle]="''">
+            <app-cards *ngFor="let albums of RecommendedsAlbums"  [image]="albums.Image" [songName]="albums.Songname" [songDesc]="albums.artist" [songView]="albums.Views">{{albums}}</app-cards>
+        </app-scroll>
+</div>
