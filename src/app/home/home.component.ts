@@ -8,6 +8,8 @@ import { ServiceComponent } from '../service/music.service';
 export class HomeComponent  implements OnInit{
 
   RecommendedsAlbums:any=[]
+  Recomended:any=[]
+  songs:any=[]
 
   categories:string[]=['Relax','Romance','Podcasts','Energize','Feel good','Commute','Sad','Workout','Focus']
 
@@ -15,6 +17,8 @@ export class HomeComponent  implements OnInit{
 
   ngOnInit() {
     this.RecommendedsAlbums = this.musicService.RecommendedsAlbums
-  }
+    this.Recomended = this.musicService.Recomended
+    this.songs= this.musicService.Recomended
+  } 
 }
 

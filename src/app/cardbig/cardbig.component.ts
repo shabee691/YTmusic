@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cardbig',
   templateUrl: './cardbig.component.html',
-  styleUrls: ['./cardbig.component.css']
 })
 export class CardbigComponent {
-
+  @Input()
+  image:string=''
+  @Input()
+  songName:string=''
+  @Input()
+  songDesc:string=''
 }

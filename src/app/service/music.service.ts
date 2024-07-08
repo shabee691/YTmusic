@@ -55,4 +55,67 @@ export class ServiceComponent {
       },
       
     ]
+    Recomended =[
+      {
+        Songname:"Animal Hindi",
+        artist:"Various",
+        Image:"assets/songs/ANIMAL-Hindi.jpg"
+      },
+      {
+        Songname:"Ashique 2",
+        artist:"Jeet Gannguli,",
+        Image:'assets/songs/Aashiqui_2_(Poster).jpg'
+      },
+      {
+        Songname:"Animal Hindi",
+        artist:"Various",
+        Image:"assets/songs/ANIMAL-Hindi.jpg"
+      },
+      {
+        Songname:"Ashique 2",
+        artist:"Jeet Gannguli,",
+        Image:'assets/songs/Aashiqui_2_(Poster).jpg'
+      },
+      {
+        Songname:"Animal Hindi",
+        artist:"Various",
+        Image:"assets/songs/ANIMAL-Hindi.jpg"
+      },
+      {
+        Songname:"Ashique 2",
+        artist:"Jeet Gannguli,",
+        Image:'assets/songs/Aashiqui_2_(Poster).jpg'
+      },
+      {
+        Songname:"Animal Hindi",
+        artist:"Various",
+        Image:"assets/songs/ANIMAL-Hindi.jpg"
+      },
+      {
+        Songname:"Ashique 2",
+        artist:"Jeet Gannguli,",
+        Image:'assets/songs/Aashiqui_2_(Poster).jpg'
+      },
+      {
+        Songname:"Animal Hindi",
+        artist:"Various",
+        Image:"assets/songs/ANIMAL-Hindi.jpg"
+      },
+      {
+        Songname:"Ashique 2",
+        artist:"Jeet Gannguli,",
+        Image:'assets/songs/Aashiqui_2_(Poster).jpg'
+      },
+      {
+        Songname:"Animal Hindi",
+        artist:"Various",
+        Image:"assets/songs/ANIMAL-Hindi.jpg"
+      },
+      {
+        Songname:"Ashique 2",
+        artist:"Jeet Gannguli,",
+        Image:'assets/songs/Aashiqui_2_(Poster).jpg'
+      }
+      
+    ]
 }

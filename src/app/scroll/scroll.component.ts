@@ -1,10 +1,10 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input ,OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-scroll',
   templateUrl: './scroll.component.html',
 })
-export class ScrollComponent {
+export class ScrollComponent  implements OnInit{
   @Input()
   secTitle:string =''
 
@@ -15,6 +15,12 @@ export class ScrollComponent {
   buttonTitle:string="Play all"
 
   @Input()
-  skipClass:string=""
-  scrollClass:string=""
+  addClass:string="ml-[400px]"
+  @Input()
+    scrollClass:string=""
+  ngOnInit(){
+    if(this.secTitle==''){
+        this.addClass="ml-[460px]"
+    }
+}
 }
